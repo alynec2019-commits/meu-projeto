@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Entre em Contato</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/style-contato.css">
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+        <h1>Entre em Contato</h1>
+
+        <p>
+            Obrigada por visitar meu pequeno cantinho. Se quiser compartilhar uma
+            mensagem, uma experiência ou apenas deixar um carinho, ficarei muito feliz em ler.
+        </p>
+
+    </header>
+
+    <main>
+
+        <form>
+
+            <h2>Envie uma mensagem</h2>
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="seu@email.com" required>
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" placeholder="(11) 99999-9999">
+
+            <label for="mensagem">Mensagem</label>
+
+            <textarea id="mensagem" rows="6" placeholder="Escreva sua mensagem..." required></textarea>
+
+            <button type="submit">
+                Enviar Mensagem
+            </button>
+
+        </form>
+
+        <form>
+
+            <h2>Me ajude a escolher o próximo tema</h2>
+
+            <p>
+                Qual assunto você gostaria de ver por aqui?
+            </p>
+
+            <div class="opcao">
+                <input type="radio" id="pais" name="tema" value="Dicas para Pais">
+                <label for="pais">Dicas para Pais</label>
+            </div>
+
+            <div class="opcao">
+                <input type="radio" id="licoes" name="tema" value="Lições da maternidade">
+                <label for="licoes">Lições da maternidade</label>
+            </div>
+
+            <div class="opcao">
+                <input type="radio" id="primeiras" name="tema" value="As primeiras vezes">
+                <label for="primeiras">As primeiras vezes</label>
+            </div>
+
+            <div class="opcao">
+                <input type="radio" id="desafios" name="tema" value="Os maiores desafios">
+                <label for="desafios">Os maiores desafios</label>
+            </div>
+
+            <div class="opcao">
+                <input type="radio" id="memorias" name="tema" value="As melhores memórias">
+                <label for="memorias">As melhores memórias</label>
+            </div>
+
+            <label for="outro">
+                Outro tema
+            </label>
+
+            <textarea id="outro" rows="5" placeholder="Escreva sua sugestão..."></textarea>
+
+            <button type="submit">
+                Enviar Sugestão
+            </button>
+
+        </form>
+
+    </main>
+
+    <footer>
+
+        <p>
+            Feito com muito carinho por Alyne ❤️
+        </p>
+
+        <p>
+            &copy; 2026 • Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
